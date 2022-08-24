@@ -1,3 +1,9 @@
+
+>__Warning__ 
+> <p> not finished yet </p>
+
+
+
 <h1>
   <p align="center">
     Dynamic Water whit python
@@ -76,4 +82,10 @@
 Make sure you have both `python3` and `pygame` installed. After that just run `test.py` then press rigthbuttom to see how it works.
   
 
+
+<h2>
+  <p align="center">
+    Check my readme
+  </p>
+</h2>
 
