@@ -129,8 +129,8 @@ Make sure you have both `python3` and `pygame` installed. After that just run `t
   
   
 <h5> This is hard work, please consider a donation: I'm hungry
-  <a href = "https://github.com/DaMetaFox/DaMetaFox/blob/main/README.md">
-    <img align="center" width="80" src="https://github.com/DaMetaFox/Dynamic-Water-w-python/blob/main/readme/_icon_paypal.png">
+  <a href = "https://github.com/DaMetaFox/DaMetaFox/blob/main/pictures/paypal_qrcode.jpg">
+    <img align="center" width="80" src="https://github.com/DaMetaFox/DaMetaFox/blob/main/pictures/_icon_paypal.png">
   </a>
 </h5>
 
