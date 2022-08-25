@@ -39,7 +39,7 @@
 <!--examples------------------------------------------------------------------------------------------------------------------------------------------------>
 <h2>
   <p align="center">
-     Here you have a few examples:
+     Here you have a few explanations/tutorials:
   </p>
 </h2>
 
