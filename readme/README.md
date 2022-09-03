@@ -105,11 +105,15 @@
 <br>
 <h2>
   <p align="center">
-    How to use it:
+    Examples:
   </p>
 </h2>
 
-Make sure you have both `python3` and `pygame` installed. After that just run `test.py` then press rigthbuttom to see how it works.
+<h6>Make sure you have both python3 and pygame installed.</h6>
+<br>
+
+In the first example `rock_test.py`, whenever you press the mouse, a rock should fall. In each update we use `WaterBody.is_in_shallow()` to check if the rock is on the white line of the water, if true `WaterBody.splash()` is called, creating a splash. Don't forget to call `water.update()` in each frame.
+
   
 <br>
 <br>
