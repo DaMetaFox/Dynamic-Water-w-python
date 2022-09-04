@@ -1,9 +1,4 @@
 
->__Warning__ 
-> <p> not finished yet </p>
-
-
-
 <h1>
   <p align="center">
     Dynamic Water whit python
@@ -100,20 +95,143 @@
 </p>
   
   
-
+<!-- Usage examples---------------------------------------------------------------------------------------------------------------------------------------->
 <br>
 <br>
+<br>
+<br>
+  
 <h2>
   <p align="center">
-    Examples:
+    Usage examples:
   </p>
 </h2>
 
-<h6>Make sure you have both python3 and pygame installed.</h6>
+  
+>__Warning__ 
+> <p> Make sure you have both python3 and pygame installed </p>
+
+  
+
+<!--rock_test.py----------------------------------------------------------------------------------------------------------------------------------------->
+  
+<br>
+<br>
 <br>
 
-In the first example `rock_test.py`, whenever you press the mouse, a rock should fall. In each update we use `WaterBody.is_in_shallow()` to check if the rock is on the white line of the water, if true `WaterBody.splash()` is called, creating a splash. Don't forget to call `water.update()` in each frame.
+  <h3>
+    <p>
+      Raining rocks
+    </p>
+  </h3>
 
+<br>
+
+In the first example `rock_test.py`, whenever you press the mouse, a rock should fall. In each update we use `WaterBody.is_on_shallow()` to check if the rock is on the white line of the water, if true `WaterBody.splash()` is called, creating a splash. Don't forget to call `WaterBody.update()` in each frame.
+
+  
+<!--square_test.py----------------------------------------------------------------------------------------------------------------------------------------->
+<br>
+<br>
+<br>
+  <h3>
+    <p>
+      Square pet
+    </p>
+  </h3>
+<br>
+
+In the second example `square_test.py`, a square will follow your mouse. In each frame the square will rotate and move towards the mouse using the vectors. We check if the square is touching in the white line of the water whit `WaterBody.is_on_shallow()`, if it is we create a perturbation based on the `y` velocity of the square. `WaterBody.update()` is obviously called.
+
+  
+<!-- Documentation--------------------------------------------------------------------------------------------------------------------------------------->
+<br>
+<br>
+<br>
+
+<h2>
+  <p align="center">
+    Documentation
+  </p>
+</h2>
+
+
+<!-- Funtions-------------------------------------------------------------------------------------------------------------------------------------------->
+<h3>
+  <p>
+    Functions:
+  </p>
+</h3>
+<!--Splash------------------------------------------------------------------------------------------------------------------------------------------------>
+<br>
+<br>
+
+> <h3>splash</h3>
+>
+>
+>          WaterBody.splash(center_x, width, force) --> None:
+>               center_x -->   the center of the splash
+>               width -->   how many pixels should be pulled
+>               force -->   an integer positive or negative that represents how many pixels should each spring is pulled
+>
+><br>
+> &nbsp;&nbsp;&nbsp;Creates a splash on the water by pulling n springs with a given force
+
+
+<!--is_on_water------------------------------------------------------------------------------------------------------------------------------------------------>
+  <br>
+  <br>
+  <br>
+  
+>  <h3>is_on_water</h4>
+>  
+>            
+>           WaterBody.is_on_water(mask, topleft_x, topleft_y) --> Boolean:
+>               mask -->   a pygame.mask.Mask() object
+>               topleft_x -->   the mask's topleft x position
+>               topleft_y -->   the mask's topleft y position
+>  
+> <br> 
+> &nbsp;&nbsp;&nbsp;Returns True if the given mask is touching on the water
+
+
+
+<!--is_on_water------------------------------------------------------------------------------------------------------------------------------------------------>
+  <br>
+  <br>
+  <br>
+  
+>  <h3>is_on_water</h4>
+>  
+>            
+>           WaterBody.is_on_water(mask, topleft_x, topleft_y) --> Boolean:
+>               mask -->   a pygame.mask.Mask() object
+>               topleft_x -->   the mask's topleft x position
+>               topleft_y -->   the mask's topleft y position
+>  
+> <br> 
+> &nbsp;&nbsp;&nbsp;Returns True if the given mask is touching on the water
+  
+  
+  
+  
+  
+<br>
+<br>
+<br>
+<br>
+
+
+<!--Variables & Stuffs-------------------------------------------------------------------------------------------------------------------------------------------->
+<h3>
+  <p>
+    Variables & Stuffs:
+  </p>
+</h3>
+
+
+
+    
   
 <br>
 <br>
