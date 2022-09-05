@@ -155,6 +155,31 @@ In the second example `square_test.py`, a square will follow your mouse. In each
   </p>
 </h2>
 
+<!--Splash------------------------------------------------------------------------------------------------------------------------------------------------>
+<br>
+<br>
+
+> <h3>WaterBody</h3>
+>
+>
+>          WaterBody(window, topleft_x, topleft_y, width, height) --> None:
+>               window -->   a display window ... pygame.Surface()
+>               topleft_x --> the topleft x position of the water on the given surface
+>               topleft_y --> the topleft y position of the water on the given surface
+>               width -->   the width of the WaterBody
+>               heigth -->   the heigth of the WaterBody
+>
+>            optional:
+>               K = 0.0045
+>               D = 0.0050
+>               SPREAD = 0.038
+>               SPRING_SEPARATION = 4
+>               COLOR = [40, 53, 255]
+>               ALPHA = 60
+>               
+><br>
+> &nbsp;&nbsp;&nbsp;Creates a new instance of WaterBody. 
+
 
 <!-- Funtions-------------------------------------------------------------------------------------------------------------------------------------------->
 <h3>
@@ -196,21 +221,21 @@ In the second example `square_test.py`, a square will follow your mouse. In each
 
 
 
-<!--is_on_water------------------------------------------------------------------------------------------------------------------------------------------------>
+<!--is_on_shallow------------------------------------------------------------------------------------------------------------------------------------------------>
   <br>
   <br>
   <br>
   
->  <h3>is_on_water</h4>
+>  <h3>is_on_shallow</h4>
 >  
 >            
->           WaterBody.is_on_water(mask, topleft_x, topleft_y) --> Boolean:
+>           WaterBody.is_on_shallow(mask, topleft_x, topleft_y) --> Boolean:
 >               mask -->   a pygame.mask.Mask() object
 >               topleft_x -->   the mask's topleft x position
 >               topleft_y -->   the mask's topleft y position
 >  
 > <br> 
-> &nbsp;&nbsp;&nbsp;Returns True if the given mask is touching on the water
+> &nbsp;&nbsp;&nbsp;Returns True if the given mask is touching on the white line of the water
   
   
   
@@ -229,18 +254,46 @@ In the second example `square_test.py`, a square will follow your mouse. In each
   </p>
 </h3>
 
-
-
+> <h4>
+>  
+> `WaterBody.topleft_x` and `WaterBody.topleft_y` vs. `Waterbody.mask_topleft_x` and `WaterBody.mask_topleft_y`
+>
+> </h4>
+>
+>    
+>&nbsp;&nbsp;&nbsp;&nbsp;  **topleft_x** and **toplfet_y** represent the topleft coordinates of the visible water, but since the water is waveling, `WaterBody.surface` is 3 times bigger than the visible heigth. So WaterBody.mask_topleft_y represents the true _y_ of `WaterBody.surface` on the given `window`.
+>
     
   
 <br>
 <br>
 <br>
 <br>
-<br>
+
+<!--any doubt?------------------------------------------------------------------------------------------------------------------------------------------------->
+<h3> If you have any questions text me </h3>
+
+<p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Discord 👉&nbsp;
+   <a href="https://discord.gg/hXyhbs6Arh">
+    <img align = "center" src="https://github.com/DaMetaFox/DaMetaFox/blob/main/pictures/_icon_discord.png" width="35"/>
+  </a>
+</p>
+
+<p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Gmail 👉&nbsp;
+   <a href="mailto:pedroxavierfigueira2008@gmail.com">
+    <img align = "center" src="https://github.com/DaMetaFox/DaMetaFox/blob/main/pictures/_icon_gmail.png" width="40"/>
+  </a>
+</p>
 <br>
 
 
+> __Warning__
+> <h5>I rarely see my gmail</h5>
+
+<br>
+<br>
+<br>
+  
 <!--About me--------------------------------------------------------------------------------------------------------------------------------------------------->
 <h5> If you want to know more about me you can read my 
   <a href = "https://github.com/DaMetaFox/DaMetaFox/blob/main/README.md">
