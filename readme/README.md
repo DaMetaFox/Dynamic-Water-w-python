@@ -90,7 +90,7 @@
 <h3>
 <p align="center">
   <a href=https://pixelipy.itch.io/water-2d-simulation>
-    <img width="500" src=https://github.com/DaMetaFox/Dynamic-Water-w-python/blob/main/readme/Dynamic_Water_godot_simulation.png>
+    <img width="500" src=https://github.com/DaMetaFox/Image_cloud/blob/main/Dynamic_Water_godot_simulation.png>
   </a>
 </p>
   
